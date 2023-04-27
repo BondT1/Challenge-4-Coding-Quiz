@@ -42,3 +42,27 @@ header h5 {
     padding: 20px;
     width: 50%;
 }
+
+.home {
+    text-align: center;
+    align-items: center;
+}    
+
+h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 1.3em;
+    color: var(--primary-color);
+}
+
+.btn {
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px grey;
+}
