@@ -1,3 +1,24 @@
+var homepageEl = document.getElementById("homepage");
+var questionViewEl = document.getElementById("question-view");
+var questionEl = document.getElementById("question");
+var answerEl = document.getElementById("answers");
+var viewHighScoreEl = document.getElementById("view-high-scores");
+var HighScoreBoxEl = document.getElementById("high-score-box")
+var HighScoreListEl = document.getElementById("high-score-list")
+var ScoreInitialsEl = document.getElementById("score-initials")
+
+
+
+var startQuizBtnEL = document.querySelector("#start-quiz");
+var timerEl = document.querySelector("#timer");
+
+
+startQuizBtnEL.addEventListener("click", startQuiz);
+viewHighScoreEl.addEventListener("click", HighScoresDisplay);
+ScoreInitialsEl.addEventListener("submit", HighScoreCreation);
+
+
+
 // list of all questions, choices, and answers
 var questions = [
   {
