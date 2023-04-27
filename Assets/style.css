@@ -8,3 +8,37 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+
+header h5 {
+    font-size: 1.3em;
+    display: inline; 
+    padding: 20px;
+}
+
+.add {
+    display: flex;
+}
+
+.remove {
+    display: none;
+}
+
+.box {
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+}
