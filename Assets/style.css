@@ -1,0 +1,10 @@
+:root {
+    --font-family: 'Trebuchet MS', Sans-Serif;
+    --primary-color: #000000; 
+    --secondary-color: #680581; 
+    --tertiary-color: #ffffff; 
+}
+
+* {
+    box-sizing: border-box;
+}
